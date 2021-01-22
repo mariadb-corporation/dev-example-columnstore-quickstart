@@ -6,7 +6,7 @@ user=$3
 pass=$4
 
 # Local connection (defaults to 127.0.0.1:3306, root user)
-mariadb = "mariadb"
+mariadb="mariadb"
 
 # Specify a connection host, port, username, and password
 #mariadb="mariadb --host ${host} --port ${port} --user ${user} -p${pass}"
