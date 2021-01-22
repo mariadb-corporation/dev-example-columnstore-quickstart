@@ -70,7 +70,7 @@ In this sample, the [create_and_load.sh](create_and_load.sh) script will be used
 
 * travel.airlines - using [data/airlines.csv](data/airlines.csv)
 * travel.airports - using [data/airports.csv](data/airports.csv)
-* travel.db_flights - using data that is downloaded with the [get_flight_data.sh](get_flight_data.sh) script
+* travel.flights - using data that is downloaded with the [get_flight_data.sh](get_flight_data.sh) script
 
 Execute the following command to execute a script to create the schema and load data.
 
