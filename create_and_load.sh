@@ -43,6 +43,7 @@ fi
 # Load the specified files under the data directory with the file pattern match
 for f in flight_data/$filematch.csv; do
   echo "  - $f"
+  #cpimport "travel" "flights" "flight_data/${f}" -s "," -E '"'
   ${mariadb} -e "LOAD DATA LOCAL INFILE '"$f"' INTO TABLE flights FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"' LINES TERMINATED BY '\n'" travel
 done
 echo "Done!"
