@@ -50,12 +50,10 @@ The United States Department of Transportation provides flight information datin
 Use the following command to execute a script that will download US domestic flight data between a `start` and `end` year. 
 
 ```bash 
-$ ./get_flight_data.sh 1990 2020
+$ ./get_flight_data.sh
 ```
 
-**Note:** The [get_flight_data.sh](get_flight_data.sh) script takes two arguments; start year and end year. It is configurable, just make sure the start year is equal to or less than the end year.
-
-**Caution:** Keep in mind that there are millions of flight records that can take up gigabytes of storage space. To limit the amount of flight data that is downloaded consider minimizing the amount of time between your start and end year arguments.
+**Note:** Keep in mind that there are millions of flight records that can take up gigabytes of storage space.
 
 ### 6. Create schemas and load data
 
