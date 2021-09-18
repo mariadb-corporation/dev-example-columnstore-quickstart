@@ -13,7 +13,9 @@ Before getting started with this walkthrough you will need:
 
 ## Overview
 
-This walkthrough will step you through the process of installing, accessing and configuring single-node MariaDB ColumnStore instance, made available through MariaDB Community Server within a Docker container.
+This walkthrough will step you through the process of installing, accessing and configuring single-node MariaDB ColumnStore instance, made available through MariaDB Community Server within a Docker container. 
+
+**Note:** To use this download, import and use this data on an existing, non-container MariaDB Server instance (including [MariaDB SkySQL](https://mariadb.com/skyview) jump to step #4.
 
 ### 1. Using a Docker image to create a Docker container
 
