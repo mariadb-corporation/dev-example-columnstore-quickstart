@@ -15,7 +15,7 @@ Before getting started with this walkthrough you will need:
 
 This walkthrough will step you through the process of installing, accessing and configuring single-node MariaDB ColumnStore instance, made available through MariaDB Community Server within a Docker container. 
 
-**Note:** To use this download, import and use this data on an existing, non-container MariaDB Server instance (including [MariaDB SkySQL](https://mariadb.com/skyview) jump to step #4.
+**Note:** To use this download, import and use this data on an existing, non-container MariaDB Server instance (including [MariaDB SkySQL](https://mariadb.com/skyview)) jump to step #4.
 
 ### 1. Using a Docker image to create a Docker container
 
@@ -47,7 +47,7 @@ $ git clone https://github.com/mariadb-corporation/dev-example-columnstore-quick
 
 ### 5. Download flight data 
 
-The United States Department of Transportation provides flight information dating back more than 30 years and 200+ million records. The department also provides a free [API](www.transtats.bts.gov) that can be used for retrieving flight information. 
+The sample data used in this example comes from the United States Department of Transportation, which provides millions of records of flight data spanning many years.
 
 Use the following command to execute a script that will download US domestic flight data between a `start` and `end` year. 
 
