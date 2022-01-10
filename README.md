@@ -1,5 +1,9 @@
 # MariaDB ColumnStore Quick Start
 
+⚠️ **[UNMAINTAINED]** This repository has been moved and is currently maintained [here](https://github.com/mariadb-developers/mariadb-columnstore-quickstart). ⚠️
+
+<br />
+
 [MariaDB ColumnStore](https://mariadb.com/docs/features/mariadb-columnstore/) is a columnar storage engine that utilizes a massively parallel distributed data architecture. ColumnStore is designed for big data scaling to process petabytes of data, linear scalability and exceptional performance with real-time response to analytical queries. 
 
 **This README provides steps to get you up and running with MariaDB ColumnStore using a [Docker](https://www.docker.com/) container**
